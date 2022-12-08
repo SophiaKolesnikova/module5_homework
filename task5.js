@@ -1,12 +1,6 @@
-let arr = [5, 17, 23, 38];
-  console.log(arr.length);
-
-let result1 = arr.map(function(item,index, array){
-    return index
+let arr = [6, 18, 22, 43];
+console.log(arr.length);
+let result = arr.map(function(item, index, array){
+  return item
 });
-  console.log(result1);
-
-let result2 = arr.map(function(item,index, array){
-    return item + 3
-});
-  console.log(result2);
+  console.log(result);
